@@ -1,0 +1,15 @@
+C:\_Dev\UC00245\AlunoExercicioRevisao\bin\Debug\net10.0\AlunoExercicioRevisao.exe
+C:\_Dev\UC00245\AlunoExercicioRevisao\bin\Debug\net10.0\AlunoExercicioRevisao.deps.json
+C:\_Dev\UC00245\AlunoExercicioRevisao\bin\Debug\net10.0\AlunoExercicioRevisao.runtimeconfig.json
+C:\_Dev\UC00245\AlunoExercicioRevisao\bin\Debug\net10.0\AlunoExercicioRevisao.dll
+C:\_Dev\UC00245\AlunoExercicioRevisao\bin\Debug\net10.0\AlunoExercicioRevisao.pdb
+C:\_Dev\UC00245\AlunoExercicioRevisao\obj\Debug\net10.0\AlunoExercicioRevisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Dev\UC00245\AlunoExercicioRevisao\obj\Debug\net10.0\AlunoExercicioRevisao.AssemblyInfoInputs.cache
+C:\_Dev\UC00245\AlunoExercicioRevisao\obj\Debug\net10.0\AlunoExercicioRevisao.AssemblyInfo.cs
+C:\_Dev\UC00245\AlunoExercicioRevisao\obj\Debug\net10.0\AlunoExercicioRevisao.csproj.CoreCompileInputs.cache
+C:\_Dev\UC00245\AlunoExercicioRevisao\obj\Debug\net10.0\AlunoExercicioRevisao.sourcelink.json
+C:\_Dev\UC00245\AlunoExercicioRevisao\obj\Debug\net10.0\AlunoExercicioRevisao.dll
+C:\_Dev\UC00245\AlunoExercicioRevisao\obj\Debug\net10.0\refint\AlunoExercicioRevisao.dll
+C:\_Dev\UC00245\AlunoExercicioRevisao\obj\Debug\net10.0\AlunoExercicioRevisao.pdb
+C:\_Dev\UC00245\AlunoExercicioRevisao\obj\Debug\net10.0\AlunoExercicioRevisao.genruntimeconfig.cache
+C:\_Dev\UC00245\AlunoExercicioRevisao\obj\Debug\net10.0\ref\AlunoExercicioRevisao.dll
