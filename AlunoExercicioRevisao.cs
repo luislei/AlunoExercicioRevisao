@@ -66,11 +66,11 @@ public class AlunoExercicioRevisao
 
     if (numero1 > numero2)
     {
-        Console.WriteLine($"o primeiro numero é maior {numero1}");    
+        Console.WriteLine($"o primeiro numero é maior {numero1} vs {numero2}");    
     }
     else if (numero1 < numero2)
     {
-        Console.WriteLine($"o primeriro numero é menor {numero2}");
+        Console.WriteLine($"o primeiro numero é menor {numero1} vs {numero2}");
     }
     else
         {
@@ -168,6 +168,11 @@ public class AlunoExercicioRevisao
     Console.WriteLine("📝 Exercício 5");
 
     // introduzir a opção
+    Console.WriteLine("1. Novo Jogo");
+    Console.WriteLine("2. Carregar Jogo");
+    Console.WriteLine("3. Sair");
+    Console.WriteLine();
+
     Console.Write("selecione a opção (1 a 3)\n");
     int opcao = Convert.ToInt32(Console.ReadLine());
 
@@ -211,31 +216,69 @@ public class AlunoExercicioRevisao
  
     Console.WriteLine("📝 Exercício 6");
 
-    int idade2=16;
-    bool temconvite=true;
+        int idade2=16;
+        bool temconvite=true;
 
-    // validar acesso
-    if (idade2 >=18 && temconvite == true)
-        {
-           Console.WriteLine("Tem permissão para entrar"); 
-        }
-    else if (idade2 >=18 && temconvite == false)
-        {
-           Console.WriteLine("Não tem convite para entrar"); 
-        }
-    else if (idade2 <18 && temconvite == true)
-        {
-           Console.WriteLine("Não tem idade para entrar"); 
-        }
-    else if (idade2 <18 && temconvite == false)
-        {
-           Console.WriteLine("Não tem idade nem convite para entrar"); 
-        }
-    //SAIDA
+        Console.WriteLine($"A idade é : {idade2}");
+        Console.WriteLine($"Tem convite? {temconvite}");
+
+        // validar acesso
+        if (idade2 >=18 && temconvite == true)
+            {
+            Console.WriteLine("Tem permissão para entrar"); 
+            }
+        else if (idade2 >=18 && temconvite == false)
+            {
+            Console.WriteLine("Não tem convite para entrar"); 
+            }
+        else if (idade2 <18 && temconvite == true)
+            {
+            Console.WriteLine("Não tem idade para entrar"); 
+            }
+        else if (idade2 <18 && temconvite == false)
+            {
+            Console.WriteLine("Não tem idade nem convite para entrar"); 
+            }
+        //SAIDA
 
                 // Mantém o console aberto até uma tecla ser pressionada
             Console.WriteLine("Pressione qualquer tecla para sair...\n");
             Console.ReadKey();
+
+         // versao B
+        Console.WriteLine("📝 Exercício 6 versão B");
+
+        Console.Write("Introduza a idade\n");
+        int idade3 = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Tem convite ? (S ou N)\n");
+        string temconvite2 = Console.ReadLine().ToUpper();
+
+        // validar acesso
+        if (idade3 >=18 && temconvite2 == "S")
+            {
+            Console.WriteLine("Tem permissão para entrar"); 
+            }
+        else if (idade3 >=18 && temconvite2 == "N")
+            {
+            Console.WriteLine("Não tem convite para entrar"); 
+            }
+        else if (idade3 <18 && temconvite2 == "S")
+            {
+            Console.WriteLine("Não tem idade para entrar"); 
+            }
+        else if (idade3 <18 && temconvite2 == "N")
+            {
+            Console.WriteLine("Não tem idade nem convite para entrar"); 
+            }
+        //SAIDA
+
+                    // Mantém o console aberto até uma tecla ser pressionada
+                Console.WriteLine("Pressione qualquer tecla para sair...\n");
+                Console.ReadKey();
+
+
+     
 
 
     /**� Exercício 6
